@@ -15,4 +15,4 @@ Design was provided by Coders Lab.
 
 * **Margaret Staszewska**
 
-![screenshot-localhost-8080-2018 09 27-19-12-50](https://user-images.githubusercontent.com/35031023/46163292-14ccaa00-c28b-11e8-8c69-b2e30abccf39.png)
+![screenshot-localhost-8080-2018 09 27-19-12-50](https://user-images.githubusercontent.com/35031023/46164437-45621300-c28e-11e8-8725-8097b95cd444.png)

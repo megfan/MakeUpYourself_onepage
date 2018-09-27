@@ -625,12 +625,13 @@ nav {
     width: 40%;
     margin-top: 30px;
     color: #BEBEBE;
+    font-size: 12px;
 }
 
 .social_media {
     display: inline-block;
     position: relative;
-    width: 20%;
+    width: 16%;
     margin-top: 20px;
     margin-left: 25%;
 }
@@ -638,7 +639,7 @@ nav {
 .logo_footer {
     display: inline-block;
     float: right;
-    width: 15%;
+    width: 18%;
     margin-top: 30px;
     font-size: smaller;
 }
