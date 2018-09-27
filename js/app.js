@@ -1,5 +1,3 @@
-console.log('lalala');
-
 
 let hideMenu = $('.aboutMenu');
 $('.about').on('mouseenter', function () {
@@ -13,23 +11,22 @@ $('.about').on('mouseout', function () {
 
 //-----------slider-----------
 
-const blackChair = $('.chair_img_black');
-const redChair = $('.chair_img_red');
+const blackChair = $('.chair_img_one');
+const redChair = $('.chair_img_two');
 
 const btnPrev = $('.arrow_left');
 const btnNext = $('.arrow_right');
 
+console.log(blackChair, redChair, btnNext, btnPrev);
 
 btnPrev.on('click', function () {
     blackChair.toggle();
     redChair.toggle();
-
 });
 
 btnNext.on('click', function () {
     blackChair.toggle();
     redChair.toggle();
-
 });
 
 

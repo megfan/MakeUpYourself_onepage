@@ -4,21 +4,17 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
 header {
     background-color: black;
     width: 100%;
     color: white;
     height: 40px;
-
  }
-
 .container {
     width: 1000px;
     margin: 0 auto;
     overflow: auto;
 }
-
 h1 {
     font-size: 12px;
     font-weight: lighter;
@@ -26,7 +22,7 @@ h1 {
     padding-top: 13px;
 }
 .on {
-    color: aquamarine;
+    color: rgb(243, 28, 74);
     font-weight: bold;
 }
 
@@ -114,7 +110,7 @@ nav {
 .arrow{
     position: absolute;
     font-size: 80px;
-    color: #24baa0;
+    color: rgb(243, 28, 74);
     top: 150px;
     cursor: pointer;
     z-index: 6;
@@ -152,9 +148,14 @@ nav {
     clear: both;
     display: block;
 }
-.chair_img_red {
+.chair_img_two {
     padding-left: 100px;
     padding-top: 30px;
+}
+.chair_img_one{
+    height: 18rem;
+    padding-left: 5rem;
+    padding-top: 3rem;
 }
 
  .chair_text {
@@ -184,15 +185,15 @@ nav {
      height: 40px;
      width: 170px;
      color: white;
-     background-color: #24baa0;
+     background-color: rgb(243, 28, 74);
      padding: 5px 10px;
      font-size: 14px;
      font-weight: bolder;
  }
 .chair_button input:hover {
-    border: 1px solid #24baa0;
+    border: 1px solid rgb(243, 28, 74);
     background: white;
-    color: #24baa0;
+    color: rgb(243, 28, 74);
 }
 
  .articles {
@@ -226,7 +227,7 @@ nav {
  }
 
  .small_pic_text_line {
-     background-color: aquamarine;
+     background-color: rgb(243, 28, 74);
      height: 8px;
      width: 140px;
  }
@@ -280,7 +281,7 @@ nav {
  }
 
  .title_line {
-     background-color: aquamarine;
+     background-color: rgb(243, 28, 74);
      height: 8px;
      width: 300px;
      margin-bottom: 40px;
@@ -320,7 +321,7 @@ nav {
 
  .panel_cennik h4 {
      text-align: center;
-     color: #27C7AB;
+     color: rgb(243, 28, 74);
      padding: 40px 40px;
      font-size: 20px;
      font-weight: lighter;
@@ -391,15 +392,15 @@ nav {
     width: 140px;
     height: 40px;
     border-radius: 10px;
-    background-color: #27C7AB;
+    background-color: rgb(243, 28, 74);
     border: 0;
     font-size: 12px;
     font-weight: bolder;
 }
 .panel_cennik input:hover{
     background-color: white;
-    color: #27C7AB;
-    border: 1px solid #27C7AB;
+    color: rgb(243, 28, 74);
+    border: 1px solid rgb(243, 28, 74);
 }
 #first {
     margin-top: 130px;
@@ -414,23 +415,23 @@ nav {
 .panel_cennik_middle {
     display: inline-block;
     float: left;
-    background-color: #27C7AB;
+    background-color:rgb(243, 28, 74);
     height: 530px;
     width: 31%;
     margin: 40px 22px 40px 0px;
     position: relative;
-    border: 1px solid #27C7AB;
+    border: 1px solid rgb(243, 28, 74)
 }
 
 .panel_circle_cennik_middle {
     height: 50px;
     width: 50px;
     border-radius: 70px;
-    border: 1px solid #27C7AB;
+    border: 1px solid rgb(243, 28, 74);
     position: absolute;
     margin-top: -30px;
     margin-left: 42%;
-    background-color: #27C7AB;
+    background-color: rgb(243, 28, 74);
 }
 
 .panel_smallCircle_cennik_middle {
@@ -465,7 +466,7 @@ nav {
     font-weight: bold;
     padding-top: 30px;
     font-size: 44px;
-    color: #27C7AB;
+    color: rgb(243, 28, 74);
     text-align: center;
 }
 
@@ -479,7 +480,7 @@ nav {
     font-size: 14px;
     letter-spacing: 1px;
     font-weight: lighter;
-    color: #27C7AB;
+    color:rgb(243, 28, 74);
     text-align: center;
 }
 
@@ -513,7 +514,7 @@ nav {
 .panel_cennik_middle input {
     position:relative;
     margin: 40px 0 30px 28%;
-    color: #27C7AB;
+    color: rgb(243, 28, 74);
     width: 140px;
     height: 40px;
     border-radius: 10px;
@@ -523,7 +524,7 @@ nav {
     font-weight: bolder;
 }
 .panel_cennik_middle input:hover {
-    background: #27C7AB;
+    background: rgb(243, 28, 74);
     color: white;
     border: 1px solid white;
 }
@@ -548,7 +549,7 @@ nav {
  input {
      width: 100%;
      height: 65px;
-     border: 1px solid #27C7AB;
+     border: 1px solidrgb(243, 28, 74);
      color: darkgrey;
      font-size: 24px;
      font-weight: lighter;
@@ -560,7 +561,7 @@ nav {
  textarea {
      width: 100%;
      height: 170px;
-     border: 1px solid #27C7AB;
+     border: 1px solid rgb(243, 28, 74);
      color: darkgrey;
      font-size: 24px;
      font-weight: lighter;
@@ -595,7 +596,7 @@ nav {
 .checkboxData {
     height: 40px;
     width: 40px;
-    border: 1px solid #27C7AB;
+    border: 1px solidrgb(243, 28, 74);
     display: inline-block;
     margin-right: 10px;
 
@@ -614,7 +615,7 @@ nav {
     width: 300px;
     height: 60px;
     border-radius: 10px;
-    background-color: #27C7AB;
+    background-color: rgb(243, 28, 74);
     border: 0;
     margin-top: 30px;
 }
@@ -639,6 +640,7 @@ nav {
     float: right;
     width: 15%;
     margin-top: 30px;
+    font-size: smaller;
 }
 
 /*//domainofapplication*/
@@ -673,7 +675,7 @@ nav {
     margin-top:50px;
 }
 .drop_down_list {
-    border:1px solid #8de0d2;
+    border:1px solid rgb(243, 28, 74);
     width: 280px;
     height:38px;
     background-color: white;
@@ -715,7 +717,7 @@ nav {
 }
 
 .checkbox label::before, .checkbox label::after {
-    border: 1px solid #27c7ab;
+    border: 1px solid rgb(243, 28, 74);
     content: "";
     display: block;
     left: 0;
@@ -725,9 +727,10 @@ nav {
     top: 0;
 }
 .checkbox label::after {
-    background: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20preserveAspectRatio%3D%22xMidYMid%22%20width%3D%2233.875%22%20height%3D%2233%22%20viewBox%3D%220%200%2033.875%2033%22%3E%0A%20%20%3Cpath%20d%3D%22M9.470%2C15.209%20L14.061%2C24.104%20C14.061%2C24.104%2021.522%2C6.026%2033.287%2C-0.000%20C33.000%2C4.304%2031.852%2C8.035%2033.861%2C12.626%20C28.696%2C13.774%2018.078%2C26.687%2014.635%2C33.000%20C9.756%2C26.974%204.017%2C22.382%20-0.000%2C20.948%20L9.470%2C15.209%20Z%22%20fill%3D%22%2327c7ab%22/%3E%0A%3C/svg%3E%0A") no-repeat center;
+    background: url(../Images/form_ok.jpg)  no-repeat center;
     border: 0;
     display: none;
+    padding-left: 1px;
 }
 
 .checkbox input:checked + label::after {
@@ -760,7 +763,7 @@ nav {
 
 
 .application .green_bell {
-    background-color: #24baa0;
+    background-color: rgb(243, 28, 74);
     width: 200px;
     height: 6px;
     display: inline-block;
@@ -778,7 +781,7 @@ nav {
 
 
 .application .green_button {
-    background-color: #27c7ab;
+    background-color: rgb(243, 28, 74);
     color: white;
     text-align:center;
     text-transform: uppercase;
@@ -795,8 +798,8 @@ nav {
 
 .application .green_button:hover {
     background: white;
-    color: #24baa0;
-    border: 1px solid #24baa0;
+    color: rgb(243, 28, 74);
+    border: 1px solid rgb(243, 28, 74);
 }
 .panel_left {
     display: inline-block;
@@ -819,7 +822,7 @@ nav {
 }
 
 .panel_left h4 , .panel_right h4{
-    color: #24baa0;
+    color: rgb(243, 28, 74);
     font-size: 23px;
 }
 
@@ -833,7 +836,7 @@ nav {
 .panel_right span {
     display: block;
     font-size: 22px;
-    color: #24baa0;
+    color: rgb(243, 28, 74);
     margin-top:10px;
     height: 26px;
 }
@@ -851,7 +854,7 @@ nav {
     text-align: right;
     margin-top: 10px;
     font-size: 22px;
-    color: #24baa0;
+    color: rgb(243, 28, 74);
 }
 
 .list_arrow {
@@ -859,7 +862,7 @@ nav {
     height: 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-top: 10px solid #24baa0;
+    border-top: 10px solid rgb(243, 28, 74);
     display:block;
     position: absolute;
     right: 14px;
